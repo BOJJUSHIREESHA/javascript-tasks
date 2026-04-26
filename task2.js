@@ -107,8 +107,7 @@ switch(color) {
 }
 
 
-console.log("\n===== LEVEL 6 : FOR LOOP =====");
-
+// LEVEL 6 : FOR LOOP 
 // Task 16
 for (let i = 1; i <= 10; i++) {
     console.log(i);
@@ -125,7 +124,7 @@ for (let i = 10; i >= 1; i--) {
 }
 
 
-console.log("\n===== LEVEL 7 : WHILE LOOP =====");
+// LEVEL 7 : WHILE LOOP
 
 // Task 19
 let i = 5;
