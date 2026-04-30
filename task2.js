@@ -3,47 +3,47 @@
 let firstName = "Spider";
 let lastName = "Man";
 console.log(firstName + " Hero " + lastName);
-*//output: Spider Hero Man
+//output: Spider Hero Man
 
 
 // Task 2
 let city = "Salem";
 console.log("Welcome to " + city);
-*//output: Welcome to Salem
+//output: Welcome to Salem
 
 
 // Task 3
 let name = "Naveen";
 let skill = "JavaScript";
 console.log(`${name} learning ${skill}`);
-*//output: Naveen learning JavaScript
+//output: Naveen learning JavaScript
 
 
 // LEVEL 2 : TYPE CONVERSION
 // Task 4
 console.log("Result:", "10" + 5); // string concatenation
-*//output: Result: 105
+//output: Result: 105
 
 
 // Task 5
 let num2 = Number("100");
 console.log("After Conversion:", num2 + 50);
-*//output: After Conversion: 150
+//output: After Conversion: 150
 
 
 // Task 6
 console.log("Boolean(0):", Boolean(0));
-*//output: Boolean(0): false
+//output: Boolean(0): false
 
 
 // Task 7
 console.log("Boolean('hello'):", Boolean("hello"));
-*//output: Boolean('hello'): true
+//output: Boolean('hello'): true
 
 
 // Task 8
 console.log("Number(true):", Number(true));
-*//output: Number(true): 1
+//output: Number(true): 1
 
 
 // LEVEL 3 : IF STATEMENT
@@ -52,7 +52,7 @@ let age2 = 20;
 if (age2 >= 18) {
     console.log("Eligible Vote");
 }
-*//output: Eligible Vote
+//output: Eligible Vote
 
 
 // Task 10
@@ -62,7 +62,7 @@ if (marksp >= 35) {
 } else {
     console.log("Fail");
 }
-*//output: Pass
+//output: Pass
 
 
 // Task 11
@@ -72,7 +72,7 @@ if (userpassword == "1234") {
 } else {
     console.log("Wrong Password");
 }
-*//output: Login Success
+//output: Login Success
 
 
 // LEVEL 4 : ELSE IF
@@ -87,7 +87,7 @@ if (hour < 12) {
 } else {
     console.log("Night");
 }
-*//output: Morning
+//output: Morning
 
 
 // Task 13
@@ -101,7 +101,7 @@ if (score >= 90) {
 } else {
     console.log("Fail");
 }
-*//output: Grade B
+//output: Grade B
 
 
 //LEVEL 5 : SWITCH 
@@ -113,7 +113,7 @@ switch(day) {
     case 3: console.log("Wednesday"); break;
     default: console.log("Invalid day");
 }
-*//output: Wednesday
+//output: Wednesday
 
 
 // Task 15
@@ -124,7 +124,7 @@ switch(color) {
     case "green": console.log("Go"); break;
     default: console.log("Invalid color");
 }
-*//output: Stop
+//output: Stop
 
 
 // LEVEL 6 : FOR LOOP 
@@ -132,7 +132,7 @@ switch(color) {
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
-*//output:
+//output:
 //1
  //2
  //3
@@ -149,7 +149,7 @@ for (let i = 1; i <= 10; i++) {
 for (let i = 2; i <= 20; i += 2) {
     console.log(i);
 }
-*//output:
+//output:
  //2
  //4
  //6
@@ -166,7 +166,7 @@ for (let i = 2; i <= 20; i += 2) {
 for (let i = 10; i >= 1; i--) {
     console.log(i);
 }
-*//output:
+//output:
  //10
  //9
  //8
@@ -186,7 +186,7 @@ while (i >= 1) {
     console.log(i);
     i--;
 }
-*//output:
+//output:
  //5
  //4
 //3
@@ -200,7 +200,7 @@ while (j <= 10) {
     console.log("2 x " + j + " = " + (2 * j));
     j++;
 }
-*//output:
+//output:
 //2 x 1 = 2
 //2 x 2 = 4
 //2 x 3 = 6
@@ -220,7 +220,7 @@ do {
     console.log(k);
     k++;
 } while (k <= 5);
-*//output:
+//output:
 //1
 //2
 //3
@@ -234,7 +234,7 @@ do {
     console.log(m);
     m--;
 } while (m >= 1);
-*//output:
+//output:
 //10
 //9
 //8
@@ -253,7 +253,7 @@ let word = "javascript";
 for (let char of word) {
     console.log(char);
 }
-*//output:
+//output:
 //j
 //a
 //v
@@ -271,7 +271,7 @@ let arr = [10, 20, 30, 40];
 for (let value of arr) {
     console.log(value);
 }
-*//output:
+//output:
 //10
 //20
 //30
@@ -288,7 +288,7 @@ let student1 = {
 for (let key in student1) {
     console.log(student1[key]);
 }
-*//output:
+//output:
 //Naveen
  //20
 //JS
@@ -300,7 +300,7 @@ let balance = 5000;
 let withdraw = 2000;
 balance -= withdraw;
 console.log("Remaining Balance:", balance);
-*//output: Remaining Balance: 3000
+//output: Remaining Balance: 3000
 
 
 // Task 27
@@ -308,7 +308,7 @@ let price = 1000;
 if (price > 500) {
     console.log("Discount Applied");
 }
-*//output: Discount Applied
+//output: Discount Applied
 
 
 // Task 28
@@ -319,7 +319,7 @@ if (username === "admin" && pass === "1234") {
 } else {
     console.log("Invalid Login");
 }
-*//output: Login Successful
+//output: Login Successful
 
 
 // Task 29
@@ -329,7 +329,7 @@ switch(signal) {
     case "yellow": console.log("Ready"); break;
     case "green": console.log("Go"); break;
 }
-*//output: Stop
+//output: Stop
 
 
 // Task 30
@@ -338,7 +338,7 @@ for (let x = 1; x <= 15; x++) {
         console.log(x);
     }
 }
-*//output:
+//output:
 //1
 //3
 //5
@@ -359,7 +359,7 @@ for (let ch of str1) {
     }
 }
 console.log("Vowel Count:", count);
-*//output: Vowel Count: 3
+//output: Vowel Count: 3
 
 
 // Task 32
@@ -369,7 +369,7 @@ for (let n = str2.length - 1; n >= 0; n--) {
     reversed += str2[n];
 }
 console.log("Reversed:", reversed);
-*//output: Reversed: olleh
+//output: Reversed: olleh
 
 
 // Task 33
@@ -381,7 +381,7 @@ for (let num1 of numbers) {
     }
 }
 console.log("Largest:", largest);
-*//output: Largest: 9
+//output: Largest: 9
 
 
 // Task 34
@@ -390,7 +390,7 @@ for (let s = 1; s <= 100; s++) {
     sum += s;
 }
 console.log("Sum 1-100:", sum);
-*//output: Sum 1-100: 5050
+//output: Sum 1-100: 5050
 
 
 // Task 35
@@ -400,5 +400,6 @@ if (str3 === rev) {
     console.log("Palindrome");
 } else {
     console.log("Not Palindrome");
+    
 }
-*//output: Palindrome
+//output: Palindrome
