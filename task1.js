@@ -117,13 +117,13 @@ console.log(marks >= 35 || marks > 40);
 //LEVEL 6: Ternary Operator
 //Task 14:
 let num1 = 7;
-let result1 = (num1 % 2 === 0) ? "Even": "Odd";
+let result1 = (num1 % 2 === 0) ? "Even" : "Odd";
 console.log(result1);
 *// Output: Odd
 
 
 //Task 15:
 let password = true;
-let message = password ? "Welcome User": "Wrong Password";
+let message = password ? "Welcome User" : "Wrong Password";
 console.log(message);
 *// Output: Welcome User
