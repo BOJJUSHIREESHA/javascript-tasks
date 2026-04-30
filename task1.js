@@ -2,7 +2,7 @@
 //Task 1:
 var name = "Naveen";
 console.log(name);
-*// Output:
+// Output:
 // Naveen
 
 
@@ -10,14 +10,14 @@ console.log(name);
 let age = 20;
 age = age + 5;
 console.log(age);
-*// Output:
+// Output:
 // 25
 
 
 //Task 3:
 const country = "India";
 console.log("I am from " + country);
-*// Output:
+// Output:
 // I am from India
 
 
@@ -35,13 +35,13 @@ console.log(typeof isTrue);     // boolean
 console.log(typeof notDefined); // undefined
 console.log(typeof emptyValue); // object 
 
+
 //Task 5:
 let fruits = ["apple", "banana", "orange", "grape"];
-
 console.log(fruits[0]); 
 console.log(fruits[fruits.length - 1]); 
 console.log(fruits[Math.floor(fruits.length / 2)]); 
-*// output:
+// output:
 // apple
 // grape
 // orange
@@ -53,10 +53,9 @@ let student = {
     age: 20,
     course: "JavaScript"
 };
-
 console.log(student.name);
 console.log(student.course);
-*// Output:
+// Output:
 // Naveen
 // JavaScript
 
@@ -77,14 +76,14 @@ console.log(a % b); // 0
 let x = 10;
 x++;   // increase by 1
 console.log(x);
-*// Output:
+// Output:
 // 11
 
 
 //Task 9:
 let result = 2 ** 5;
 console.log(result);
-*// Output:32
+// Output:32
 
 
 //LEVEL 4: Comparison
@@ -105,13 +104,13 @@ console.log(null == undefined); // true
 let age1 = 22;
 let citizen = true;
 console.log(age1 >= 18 && citizen == true);
-*// Output: true
+// Output: true
 
 
 //Task 13:
 let marks = 35;
 console.log(marks >= 35 || marks > 40);
-*// Output: true
+// Output: true
 
 
 //LEVEL 6: Ternary Operator
@@ -119,11 +118,11 @@ console.log(marks >= 35 || marks > 40);
 let num1 = 7;
 let result1 = (num1 % 2 === 0) ? "Even" : "Odd";
 console.log(result1);
-*// Output: Odd
+// Output: Odd
 
 
 //Task 15:
 let password = true;
 let message = password ? "Welcome User" : "Wrong Password";
 console.log(message);
-*// Output: Welcome User
+// Output: Welcome User
